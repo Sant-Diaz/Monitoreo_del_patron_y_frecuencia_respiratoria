@@ -72,11 +72,11 @@ Este método es simple, pero presenta problemas de precisión, ya que depende de
 
 ###  2. Métodos automatizados basados en sensores
 
-Según revisiones académicas, los métodos tecnológicos para medir FR se dividen en varias categorías basadas en la variable fisiológica sensorizada: :contentReference[oaicite:9]{index=9}
+Según revisiones académicas, los métodos tecnológicos para medir FR se dividen en varias categorías basadas en la variable fisiológica sensorizada: 
 
 ####  a) Flujo de aire
 
-Los sensores neumotacográficos miden el flujo respiratorio mediante diferencias de presión causadas por el paso de aire durante la respiración. :contentReference[oaicite:10]{index=10}
+Los sensores neumotacográficos miden el flujo respiratorio mediante diferencias de presión causadas por el paso de aire durante la respiración. 
 
 ####  b) Movimientos torácicos y abdominales
 
@@ -84,11 +84,11 @@ Sensores tipo *pneumograph* o sistemas de pletismografía miden cambios mecánic
 
 ####  c) Modulación de señales cardíacas
 
-Se puede extraer un componente respiratorio de señales como el ECG o el PPG y estimar la FR a partir de las variaciones periódicas inducidas por la respiración. :contentReference[oaicite:12]{index=12}
+Se puede extraer un componente respiratorio de señales como el ECG o el PPG y estimar la FR a partir de las variaciones periódicas inducidas por la respiración. 
 
 ####  d) Métodos ópticos o sin contacto
 
-Tecnologías como **remote photoplethysmography (rPPG)** o cámaras infrarrojas pueden estimar FR sin contacto físico directo con el paciente, aunque todavía son objeto de investigación activa. :contentReference[oaicite:13]{index=13}
+Tecnologías como **remote photoplethysmography (rPPG)** o cámaras infrarrojas pueden estimar FR sin contacto físico directo con el paciente, aunque todavía son objeto de investigación activa. 
 
 ---
 
