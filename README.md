@@ -8,7 +8,7 @@ La **frecuencia respiratoria (FR)** es el número de **ciclos completos de respi
 
 > En términos fisiológicos:
 >
-> “La frecuencia respiratoria (es decir, el número de respiraciones por minuto) está altamente regulada para permitir que las células produzcan energía de forma óptima en función de las necesidades del organismo.” :contentReference[oaicite:1]{index=1}
+> “La frecuencia respiratoria (es decir, el número de respiraciones por minuto) está altamente regulada para permitir que las células produzcan energía de forma óptima en función de las necesidades del organismo.” 
 
 ---
 
