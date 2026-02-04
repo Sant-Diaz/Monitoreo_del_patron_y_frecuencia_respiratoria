@@ -20,9 +20,9 @@ La **frecuencia respiratoria (FR)** es el número de **ciclos completos de respi
 Una respiración completa consta de dos fases:  
 1. **Inspiración** — entrada de aire a los pulmones  
 2. **Espiración** — salida de aire hacia el ambiente
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTxnPGqGmdluJs3qnf0VLcFsl0Ip6TxUlsOF0h-k7J8jiNOZ9hgAfyLL7BBCoiG3Av-KU&usqp=CAU" alt="Descripción" width="500">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTxnPGqGmdluJs3qnf0VLcFsl0Ip6TxUlsOF0h-k7J8jiNOZ9hgAfyLL7BBCoiG3Av-KU&usqp=CAU" alt="Descripción" width="300">
 
-Cada ciclo representa una única respiración. :contentReference[oaicite:2]{index=2}
+Cada ciclo representa una única respiración.
 
 ### - Regulación nerviosa
 
