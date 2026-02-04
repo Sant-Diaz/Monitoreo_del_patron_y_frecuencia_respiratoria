@@ -9,7 +9,7 @@ La **frecuencia respiratoria (FR)** es el número de **ciclos completos de respi
 > En términos fisiológicos:
 >
 > “La frecuencia respiratoria (es decir, el número de respiraciones por minuto) está altamente regulada para permitir que las células produzcan energía de forma óptima en función de las necesidades del organismo.” 
-
+Sacado de: Chourpiliadis C, Bhardwaj A. Physiology, Respiratory Rate. [Updated 2022 Sep 12]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2025 Jan-. Available from: https://www.ncbi.nlm.nih.gov/books/NBK537306/?utm_source=chatgpt.com
 ---
 
 ## 🫁 Fisiología de la respiración
