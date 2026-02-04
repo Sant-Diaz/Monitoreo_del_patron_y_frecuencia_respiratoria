@@ -26,7 +26,7 @@ Cada ciclo representa una única respiración.
 
 ### - Regulación nerviosa
 
-La FR está controlada por centros en el **tronco cerebral**, específicamente en áreas como el **pre-Botzinger complex**, que generan un patrón rítmico para la respiración. Cuando los niveles de gases en sangre (por ejemplo CO₂) cambian, los quimiorreceptores ajustan la frecuencia y profundidad respiratoria. :contentReference[oaicite:3]{index=3}
+La FR está controlada por centros en el **tronco cerebral**, específicamente en áreas como el **pre-Botzinger complex**, que generan un patrón rítmico para la respiración. Cuando los niveles de gases en sangre (por ejemplo CO₂) cambian, los quimiorreceptores ajustan la frecuencia y profundidad respiratoria. 
 
 ---
 
@@ -40,7 +40,7 @@ Los valores típicos en reposo varían según la edad y condición fisiológica:
 | Infante | ~30–60 rpm |
 | Niño | ~18–30 rpm |
 | Adulto sano | ~12–20 rpm |
-| Adulto mayor | ~12–28 rpm | :contentReference[oaicite:4]{index=4}
+| Adulto mayor | ~12–28 rpm | 
 
 ---
 
@@ -70,23 +70,23 @@ Este método es simple, pero presenta problemas de precisión, ya que depende de
 
 ---
 
-### 📡 2. Métodos automatizados basados en sensores
+###  2. Métodos automatizados basados en sensores
 
 Según revisiones académicas, los métodos tecnológicos para medir FR se dividen en varias categorías basadas en la variable fisiológica sensorizada: :contentReference[oaicite:9]{index=9}
 
-#### 🔹 a) Flujo de aire
+####  a) Flujo de aire
 
 Los sensores neumotacográficos miden el flujo respiratorio mediante diferencias de presión causadas por el paso de aire durante la respiración. :contentReference[oaicite:10]{index=10}
 
-#### 🔹 b) Movimientos torácicos y abdominales
+####  b) Movimientos torácicos y abdominales
 
 Sensores tipo *pneumograph* o sistemas de pletismografía miden cambios mecánicos de la pared corporal durante la respiración. :contentReference[oaicite:11]{index=11}
 
-#### 🔹 c) Modulación de señales cardíacas
+####  c) Modulación de señales cardíacas
 
 Se puede extraer un componente respiratorio de señales como el ECG o el PPG y estimar la FR a partir de las variaciones periódicas inducidas por la respiración. :contentReference[oaicite:12]{index=12}
 
-#### 🔹 d) Métodos ópticos o sin contacto
+####  d) Métodos ópticos o sin contacto
 
 Tecnologías como **remote photoplethysmography (rPPG)** o cámaras infrarrojas pueden estimar FR sin contacto físico directo con el paciente, aunque todavía son objeto de investigación activa. :contentReference[oaicite:13]{index=13}
 
