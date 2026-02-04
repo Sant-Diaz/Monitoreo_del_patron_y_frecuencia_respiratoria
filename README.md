@@ -13,9 +13,9 @@ La **frecuencia respiratoria (FR)** es el número de **ciclos completos de respi
 >  Sacado de: Chourpiliadis C, Bhardwaj A. Physiology, Respiratory Rate. Available from: [https://www.ncbi.nlm.nih.gov/books/NBK537306/?utm_source=chatgpt.com](https://www.ncbi.nlm.nih.gov/books/NBK537306/)
 ---
 
-## 🫁 Fisiología de la respiración
+##  Fisiología de la respiración
 
-### 🔹 El ciclo respiratorio
+### - El ciclo respiratorio
 
 Una respiración completa consta de dos fases:  
 1. **Inspiración** — entrada de aire a los pulmones  
@@ -23,13 +23,13 @@ Una respiración completa consta de dos fases:
 
 Cada ciclo representa una única respiración. :contentReference[oaicite:2]{index=2}
 
-### 🔹 Regulación nerviosa
+### - Regulación nerviosa
 
 La FR está controlada por centros en el **tronco cerebral**, específicamente en áreas como el **pre-Botzinger complex**, que generan un patrón rítmico para la respiración. Cuando los niveles de gases en sangre (por ejemplo CO₂) cambian, los quimiorreceptores ajustan la frecuencia y profundidad respiratoria. :contentReference[oaicite:3]{index=3}
 
 ---
 
-## ⚕️ Rangos normales de frecuencia respiratoria
+## - Rangos normales de frecuencia respiratoria
 
 Los valores típicos en reposo varían según la edad y condición fisiológica:
 
