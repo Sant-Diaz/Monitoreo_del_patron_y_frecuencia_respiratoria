@@ -4,7 +4,7 @@ Utilización de un sensor para la obtención de la frecuencia respiratoria
 
 ##  ¿Qué es la frecuencia respiratoria?
 
-La **frecuencia respiratoria (FR)** es el número de **ciclos completos de respiración (inspiración + espiración)** que realiza una persona por unidad de tiempo, normalmente expresado en **respiraciones por minuto (rpm)**. Se incluye como uno de los **signos vitales básicos** en medicina clínica y se utiliza para evaluar el estado respiratorio y general del paciente. :contentReference[oaicite:0]{index=0}
+La **frecuencia respiratoria (FR)** es el número de **ciclos completos de respiración (inspiración + espiración)** que realiza una persona por unidad de tiempo, normalmente expresado en **respiraciones por minuto (rpm)**. Se incluye como uno de los **signos vitales básicos** en medicina clínica y se utiliza para evaluar el estado respiratorio y general del paciente. (Nicolò A, Massaroni C, Schena E, Sacchetti M. The Importance of Respiratory Rate Monitoring)
 
 > En términos fisiológicos:
 >
