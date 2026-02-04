@@ -44,29 +44,29 @@ Los valores típicos en reposo varían según la edad y condición fisiológica:
 
 ---
 
-## 📊 Importancia clínica
+##  Importancia clínica
 
 La FR es uno de los **signos vitales más sensibles** que refleja el estado funcional del sistema respiratorio y la homeostasis general del organismo. Una variación significativa puede indicar condiciones como:
 
 - **Hipoxia** (baja oxigenación)
 - **Hipercapnia** (altos niveles de CO₂)
 - **Insuficiencia respiratoria**
-- **Deterioro clínico agudo** :contentReference[oaicite:5]{index=5}
+- **Deterioro clínico agudo** 
 
 Además, su monitorización regular ayuda a detectar deterioros clínicos tempranos y a orientar decisiones médicas en unidades hospitalarias o de cuidados intensivos. :contentReference[oaicite:6]{index=6}
 
 ---
 
-## 📏 ¿Cómo se mide la frecuencia respiratoria hoy en día? – Estado del arte
+##  ¿Cómo se mide la frecuencia respiratoria hoy en día? – Estado del arte
 
-### 🧍‍♂️ 1. Medición manual tradicional
+###  1. Medición manual tradicional
 
 El método clásico realizado por personal clínico consiste en:
 
 1. Observar el **movimiento torácico o abdominal**.
-2. Contar el número de respiraciones completas en **un minuto**. :contentReference[oaicite:7]{index=7}
+2. Contar el número de respiraciones completas en **un minuto**. 
 
-Este método es simple, pero presenta problemas de precisión, ya que depende del observador y puede verse afectado por la actividad del paciente, la distracción o la sospecha del paciente de ser observado. :contentReference[oaicite:8]{index=8}
+Este método es simple, pero presenta problemas de precisión, ya que depende del observador y puede verse afectado por la actividad del paciente, la distracción o la sospecha del paciente de ser observado. 
 
 ---
 
@@ -80,7 +80,7 @@ Los sensores neumotacográficos miden el flujo respiratorio mediante diferencias
 
 ####  b) Movimientos torácicos y abdominales
 
-Sensores tipo *pneumograph* o sistemas de pletismografía miden cambios mecánicos de la pared corporal durante la respiración. :contentReference[oaicite:11]{index=11}
+Sensores tipo *pneumograph* o sistemas de pletismografía miden cambios mecánicos de la pared corporal durante la respiración. 
 
 ####  c) Modulación de señales cardíacas
 
@@ -92,12 +92,5 @@ Tecnologías como **remote photoplethysmography (rPPG)** o cámaras infrarrojas 
 
 ---
 
-### 🔹 Investigación y algoritmos
 
-El estado del arte incluye técnicas avanzadas y algoritmos para estimar FR a partir de señales biomédicas como ECG, PPG o incluso video, especialmente en lo que respecta a wearables y tecnologías sin contacto. :contentReference[oaicite:14]{index=14}
 
----
-
-## 📜 Conclusión
-
-La **frecuencia respiratoria (FR)** es una variable fisiológica fundamental que refleja la eficiencia del intercambio gaseoso y el estado homeostático del organismo. Aunque tradicionalmente se mide manualmente observando la elevación del tórax, métodos tecnológicos más precisos – basados en sensores que capturan flujo, movimiento, señales cardíacas o datos ópticos – están siendo investigados y aplicados clínicamente para permitir mediciones continuas, objetivas y fiables en una amplia variedad de escenarios clínicos, deportivos y de monitoreo de la salud. :contentReference[oaicite:15]{index=15}
