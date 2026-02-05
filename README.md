@@ -1,4 +1,4 @@
-# Monitoreo_del_patron_y_frecuencia_respiratoria
+# Monitoreo Del Patron Y Frecuencia Respiratoria
 Utilización de un sensor para la obtención de la frecuencia respiratoria 
 #  Frecuencia Respiratoria: Definiciones, Fisiología y Estado del Arte
 
