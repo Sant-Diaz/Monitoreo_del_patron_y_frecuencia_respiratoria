@@ -392,5 +392,13 @@ El alcance la solucion implementada demuestra un alto potencial como herramienta
 
 ## Bibliografía 
 
+- Nicolò, A., Massaroni, C., Schena, E., Sacchetti, M. *The Importance of Respiratory Rate Monitoring: From Healthcare to Sport and Exercise*. Sensors, 2020.  
+- Charlton, P. H., Birrenkott, D. A., Bonnici, T., Pimentel, M. A. F., Johnson, A. E. W., Alastruey, J., Tarassenko, L., Watkinson, P. J., Beale, R., Clifton, D. A. *Breathing Rate Estimation From the Electrocardiogram and Photoplethysmogram: A Review*. IEEE Reviews in Biomedical Engineering, 2018.
+- Gazitúa, R. *Respiración*. (incluido en definiciones de frecuencia respiratoria en fuentes enciclopédicas).
+- Rodríguez-Molinero, A., et al. *Normal respiratory rate and peripheral blood oxygen saturation in the elderly population*. Journal of the American Geriatrics Society, 2013.
+- McArdle, W. D., Katch, F. I., Katch, V. L. *Exercise Physiology: Energy, Nutrition, and Human Performance*. Lippincott Williams & Wilkins, 2006.
+- González, J., Arenas, O., González V. *Valores de la frecuencia respiratoria*. Universidad Nacional Autónoma de Nicaragua (2012).
+- LibreTexts Español. *Fundamentos Respiratorios: Frecuencia Respiratoria y Control de Ventilación* (educational text).
+
 </div>
 
