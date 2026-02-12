@@ -343,6 +343,53 @@ title(sprintf("FFT (%.2f rpm)",FR_dom));
 
 end
 ```
-Se muestran dos gráficas: la señal respiratoria con picos detectados y el espectro de frecuencia con el pico dominante resaltado.
+Se muestran dos gráficas: 
+- La señal respiratoria con picos detectados.
+- El espectro de frecuencia con el pico dominante resaltado.
 
 ## Resultados y Análisis de Resultados 
+### 1. Respiración en Reposo 
+La señal adquirida en tiempo real cuando el sujeto de prueba se encuentra es reposo es:
+![WhatsApp Image 2026-02-11 at 9 02 04 PM](https://github.com/user-attachments/assets/800aaaec-de54-44a5-bb34-de5f0ef16455)
+Despues de la adquision en tiempo real se obtienen resultados de la señal original filtrada y en sus componentes en frecuencia.
+![WhatsApp Image 2026-02-11 at 9 02 43 PM](https://github.com/user-attachments/assets/3ee965e6-0603-4c63-b4b7-6151b6f33b99)
+La señal respiratoria en el dominio del tiempo muestra un comportamiento periódico y estable, característico de una respiración en reposo. Los ciclos presentan amplitud y forma relativamente constantes, lo que indica un patrón respiratorio regular sin episodios de apnea, hiperventilación o irregularidades marcadas al filtrar la señal  se puede observar con mayor claridad las oscilaciones respiratorias al reducir el ruido de alta frecuencia, facilitando la detección de los picos asociados a cada ciclo de inhalación–exhalación. Los picos identificados se encuentran espaciados de manera uniforme, lo que respalda una respiración rítmica y fisiológicamente normal.
+
+En el dominio de la frecuencia, el espectro obtenido mediante la FFT presenta una frecuencia dominante cercana a 0.27 Hz, equivalente aproximadamente a 16 respiraciones por minuto, valor que se encuentra dentro del rango normal para un adulto en reposo (12–20 rpm). La concentración de energía alrededor de esta frecuencia indica que la señal está dominada por un único componente respiratorio principal, con mínima contribución de componentes armónicas o ruido. En el comand window se muestran las caracteristicas respiratorias obtenidas de la señal al usuario.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/31f787ad-4f7b-45c4-bbc9-8658c63fa68c" width="350">
+</p>
+Esto confirma la coherencia entre el análisis temporal y frecuencial, y valida el procesamiento aplicado, demostrando que el sistema es capaz de caracterizar adecuadamente la dinámica respiratoria en condiciones de reposo.
+
+### 2. Respiracion Hablando o Leyendo 
+La señal adquirida en tiempo real cuando el sujeto de prueba se encuentra es leyendo es:
+![WhatsApp Image 2026-02-11 at 9 10 26 PM](https://github.com/user-attachments/assets/b1ae4a0d-6422-4793-9510-777a30a948ab)
+Despues de la adquision en tiempo real se obtienen resultados de la señal original filtrada y en sus componentes en frecuencia.
+![WhatsApp Image 2026-02-11 at 9 10 52 PM](https://github.com/user-attachments/assets/7e2deabd-31be-4d41-8eac-87de3435f43f)
+En el dominio del tiempo, la señal respiratoria presenta mayor variabilidad en amplitud y forma en comparación con el estado de reposo. Las oscilaciones son menos regulares y muestran pequeñas deformaciones en los ciclos, lo cual es consistente con el acto de hablar, ya que la respiración se ve interrumpida por la fonación y por patrones respiratorios irregulares. Aun así, los picos detectados mantienen una periodicidad global, permitiendo identificar los ciclos respiratorios principales, aunque con ligeras variaciones en su duración. Este comportamiento refleja un control respiratorio más activo y no automático, típico de una respiración asociada al habla.
+
+En el dominio de la frecuencia, la FFT muestra una frecuencia dominante cercana a 0.23 Hz, correspondiente aproximadamente a 14 respiraciones por minuto, valor aún dentro del rango fisiológico normal. Sin embargo, el espectro presenta una mayor dispersión de energía en frecuencias bajas adicionales, lo que indica la presencia de componentes secundarias asociadas a pausas, frases cortas y cambios en el ritmo respiratorio durante el habla. Esta distribución más ancha confirma que la señal no es estrictamente periódica, pero el pico principal sigue representando adecuadamente la frecuencia respiratoria media del sujeto en esta condición.
+
+En el comand window se muestran las caracteristicas respiratorias obtenidas de la señal al usuario.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/60255747-4880-425a-a1ea-8218f2ebe788" width="350">
+</p>
+
+Los resultados indican una frecuencia respiratoria media de 13.51 rpm, coherente con una respiración controlada durante el habla. La frecuencia dominante obtenida mediante FFT (14.00 rpm) confirma la consistencia del análisis en los dominios temporal y frecuencial.
+
+Al realizar una comparativa entre los dos modos en los que se midio la frecuencia respiratoria se encuntra que en reposo, el patrón respiratorio del individuo presenta mayor regularidad y simétria, con ciclos casi periódicos y una relación equilibrada entre inhalación y exhalación; la frecuencia se mantiene estable dentro del rango fisiológico normal. Durante la verbalización, la respiración se vuelve más irregular, ya que la exhalación se prolonga para permitir el habla y las inhalaciones se acortan, lo que modifica la relación entre ambas fases y genera mayor variabilidad en la señal, aunque la frecuencia media continúa dentro de valores normales.
+El sistema desarrollado demuestra un alto potencial como herramienta de monitoreo respiratorio básico, ya que permite identificar variaciones en la frecuencia, regularidad y estabilidad del patrón respiratorio. Estas métricas pueden ser útiles como indicadores preliminares de alteraciones fisiológicas, como taquipnea, bradipnea o irregularidades respiratorias, lo que lo convierte en un recurso valioso para prácticas educativas, monitoreo no invasivo y seguimiento en entornos controlados.
+
+El alcance la solucion implementada demuestra un alto potencial como herramienta de monitoreo respiratorio básico, ya que permite identificar variaciones en la frecuencia, regularidad y estabilidad del patrón respiratorio. Estas métricas pueden ser útiles como indicadores preliminares de alteraciones fisiológicas, como taquipnea, bradipnea o irregularidades respiratorias, lo que lo convierte en un recurso valioso para prácticas educativas, monitoreo no invasivo y seguimiento en entornos controlados. No obstante, su capacidad para detectar patologías es limitada, debido a que el sensor MQ-3 no es específico para CO₂ y responde a múltiples gases, lo que puede introducir errores. Además, factores como la posición del sensor, la humedad, el ruido ambiental y la falta de calibración clínica afectan la precisión.
+
+## Conclusiones 
+
+- Se comprobó que la verbalización influye directamente en el patrón respiratorio, generando ciclos más irregulares y una modificación en la relación entre inhalación y exhalación, en comparación con la respiración en reposo, donde el comportamiento es más estable y periódico.
+
+- Se lograron identificar las principales variables físicas involucradas en el proceso respiratorio, como la variación de la señal en el tiempo, la frecuencia respiratoria y la amplitud, las cuales permiten caracterizar adecuadamente el comportamiento del sistema respiratorio.
+
+- El sistema desarrollado fue capaz de extraer el patrón respiratorio a partir de la señal adquirida y estimar de forma confiable la frecuencia respiratoria, tanto en el dominio del tiempo como en el dominio de la frecuencia mediante transformada rápida de Fourier (FFT), demostrando un alto potencial como herramienta de monitoreo respiratorio básico y como base para el desarrollo de aplicaciones biomédicas más avanzadas.
+
+## Bibliografía 
+
+
