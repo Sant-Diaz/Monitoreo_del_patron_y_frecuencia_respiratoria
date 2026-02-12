@@ -1,5 +1,5 @@
 <h1 align="center">Monitoreo Del Patron Y Frecuencia Respiratoria</h1>
-
+<div style="text-align: justify;">
 ##  ¿Qué es la frecuencia respiratoria?
 
 La **frecuencia respiratoria (FR)** es el número de **ciclos completos de respiración (inspiración + espiración)** que realiza una persona por unidad de tiempo, normalmente expresado en **respiraciones por minuto (rpm)**. Se incluye como uno de los **signos vitales básicos** en medicina clínica y se utiliza para evaluar el estado respiratorio y general del paciente. (Nicolò A, Massaroni C, Schena E, Sacchetti M. The Importance of Respiratory Rate Monitoring)
@@ -392,4 +392,5 @@ El alcance la solucion implementada demuestra un alto potencial como herramienta
 
 ## Bibliografía 
 
+</div>
 
