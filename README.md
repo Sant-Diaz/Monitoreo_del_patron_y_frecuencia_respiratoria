@@ -99,6 +99,14 @@ Según revisiones académicas, los métodos tecnológicos para medir FR se divid
 - ***Métodos ópticos o sin contacto:*** Tecnologías como **remote photoplethysmography (rPPG)** o cámaras infrarrojas pueden estimar FR sin contacto físico directo con el paciente, aunque todavía son objeto de investigación activa. 
 
 ## Sensor y Montaje de Adquisición 
+En este laboratorio se seleccionó el sensor MQ-3, un sensor activo, para la implementación de un sistema básico de capnografía, con el fin de estimar la concentración de CO₂ en el aire exhalado durante la respiración. Aunque el MQ-3 está diseñado para la detección de alcohol, su tecnología basada en óxido metálico semiconductor (MOS) permite detectar cambios en la composición de gases, incluyendo variaciones en la concentración de CO₂ presentes en el aliento. Por esta razón, puede emplearse como un indicador indirecto de CO₂, para lo cual se realizo una adecuada calibración del sensor y acondicionamiento de la señal.
 
+El MQ-3 es un sensor activo porque requiere alimentación para su calentador interno, el cual eleva la temperatura del material sensible y permite que ocurran las reacciones químicas con los gases. Este calentamiento es lo que genera la variación de resistencia eléctrica que se mide como señal de salida.
+<p align="center">
+  <img src="https://naylampmechatronics.com/249-home_default/sensor-de-alcohol-mq3.jpg" height="220">
+  <img src="https://naylampmechatronics.com/img/cms/Blog/Tutorial%20MQ/Estructura%20del%20sensor%20MQ.jpg" width="45%" height="220">
+</p>
+Se escogió este sensor por su bajo costo, rápido tiempo de respuesta, facilidad de integración con microcontroladores y disponibilidad comercial. En comparación con sensores de CO₂ por infrarrojo (NDIR), el MQ-3 representa una alternativa más simple y económica para fines académicos.
 
+El montaje experimental se desarrollo con el controlador SP32, conectado al sensor MQ-3 que esta posicionado en una mascara de oxigeno adaptada para obtener una toma correcta de los datos, obtenidos mediante comunicacion serial.
 
